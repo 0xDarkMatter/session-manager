@@ -165,12 +165,12 @@ Write both:
 ```
 ✓ Session saved
 
-┌─ Saved State ──────────────────────────────────┐
-│ Plan: Step 3/5 (40%) - Implement OAuth flow    │
-│ Tasks: 1 completed, 1 in progress, 1 pending   │
-│ Git: 3 uncommitted files                       │
-│ Notes: "Stopped at callback URL issue..."      │
-└────────────────────────────────────────────────┘
+┌─ Saved State ──────────────────────────────────────────────────────────────────────────────────┐
+│ Plan: Step 3/5 (40%) - Implement OAuth flow                                                    │
+│ Tasks: 1 completed, 1 in progress, 1 pending                                                   │
+│ Git: 3 uncommitted files                                                                       │
+│ Notes: "Stopped at callback URL issue..."                                                      │
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 Files:
   • .claude/claude-state.json
@@ -208,19 +208,19 @@ Restore with: /load
 Part of the session management suite:
 
 ```
-┌─────────────────────────────────────────────────┐
-│              Session Lifecycle                   │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│   START          WORK            END            │
-│     │              │              │             │
-│     ▼              ▼              ▼             │
-│  /load ───→ /status (anytime) ───→ /save       │
-│     │              │              │             │
-│  Restore        Dashboard       Persist         │
-│  context        view            state           │
-│                                                 │
-└─────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                    Session Lifecycle                                           │
+├────────────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                                │
+│          START                        WORK                          END                        │
+│            │                           │                             │                         │
+│            ▼                           ▼                             ▼                         │
+│         /load ─────────────→ /status (anytime) ─────────────→ /save                           │
+│            │                           │                             │                         │
+│         Restore                     Dashboard                     Persist                      │
+│         context                       view                        state                        │
+│                                                                                                │
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Notes

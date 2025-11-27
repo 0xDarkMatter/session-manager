@@ -86,11 +86,12 @@ ls -la .claude/claude-state.json 2>/dev/null
 
 If missing:
 ```
-⚠ No saved state found in .claude/
-
-To create one, use: /save
-
-Or check your current status: /status
+┌─ Session ──────────────────────────────────────────────────────────────────────────────────────┐
+│ ⚠  State: No saved state found in .claude/claude-state.json                                    │
+│                                                                                                │
+│    To create one, use: /save                                                                   │
+│    Or check current status: /status                                                            │
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Step 2: Read State

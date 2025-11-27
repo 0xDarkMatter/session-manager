@@ -80,8 +80,16 @@ cat docs/PLAN.md 2>/dev/null
 If no plan found:
 ```
 ┌─ Plan ─────────────────────────────────────────────────────────────────────────────────────────┐
-│ No docs/PLAN.md found                                                                          │
-│ Create one with: /plan "your project goal"                                                     │
+│ ⚠  Plan: No docs/PLAN.md found                                                                 │
+│    Create one with: /plan "your project goal"                                                  │
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+If no saved state but plan exists:
+```
+┌─ Session ──────────────────────────────────────────────────────────────────────────────────────┐
+│ ⚠  State: No saved state found in .claude/claude-state.json                                    │
+│ ✓  Plan: Project plan found at docs/PLAN.md                                                    │
 └────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 

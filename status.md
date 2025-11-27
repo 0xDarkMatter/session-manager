@@ -56,9 +56,9 @@ Single dashboard view showing plan progress, active tasks, and git state.
 │   • tests/auth.test.ts              (new)                                                      │
 │                                                                                                │
 │ Recent commits:                                                                                │
-│   abc123f feat: Add OAuth config                                                               │
-│   def456a fix: Handle token expiry                                                             │
-│   789ghij refactor: Extract auth utils                                                         │
+│   • abc123f feat: Add OAuth config                                                             │
+│   • def456a fix: Handle token expiry                                                           │
+│   • 789ghij refactor: Extract auth utils                                                       │
 └────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─ Suggestions ──────────────────────────────────────────────────────────────────────────────────┐
